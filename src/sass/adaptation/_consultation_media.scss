@@ -1,0 +1,29 @@
+@media (max-width: 991px) {
+    .consultation {
+        min-height: auto;
+        &__descr {
+            text-align: center;
+        }
+    }
+    .title {
+        text-align: center;
+    }
+    .feed-form {
+        align-items: center;
+        width: 100%;
+        input {
+            width: 350px;
+        }  
+        .button_submit {
+            width: 350px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    
+}
+
+@media (max-width: 575px) {
+    
+}

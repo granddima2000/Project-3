@@ -1,0 +1,73 @@
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
+    }
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .next {
+        right: -66px;
+        left: auto;
+    }
+    .tns-nav {
+        display: flex;
+        justify-content: center;
+        button {
+            border: none;
+            margin-right: 5px;
+            background-color: #c70101;
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+        }
+        .tns-nav-active {
+            background-color: blue;
+        }
+        
+    }
+    .tns-item { /* Центрируем наш tns-item по центру */
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+
+    /* .slick-dots li button { 
+        display: none; 
+     }  */
+     
+    .dots {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        width: 150px;
+        li {
+            display: block;
+            list-style: none;
+            button {
+                font-size: 0;
+                width: 20px;
+                height: 20px;
+                border-radius: 100%;
+                border: none;
+            }
+        }
+     }
+    .active button {
+        background: red;
+    }
+
+}
+
